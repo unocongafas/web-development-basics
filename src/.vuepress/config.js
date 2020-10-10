@@ -1,7 +1,7 @@
 /**
  * Ref：https://vuepress.vuejs.org/config/#base
  */
-const base = '/web-development-base/'
+const base = '/web-development-basics/'
 
 /**
  * Ref：https://vvuepress.vuejs.org/config/#title
