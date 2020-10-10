@@ -1,0 +1,19 @@
+{
+  "name": "docs",
+  "version": "0.0.1",
+  "description": "Guía básica para el desarrollo web",
+  "main": "index.js",
+  "authors": {
+    "name": "Alejandro Castaño González",
+    "email": "unocongafas@gmail.com"
+  },
+  "repository": "https://github.com/unocongafas/web-development-basics/docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
