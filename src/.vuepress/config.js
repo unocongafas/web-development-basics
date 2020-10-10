@@ -6,12 +6,12 @@ const base = '/web-development-basics/'
 /**
  * Ref：https://vvuepress.vuejs.org/config/#title
  */
-const title = 'Guía básica de desarrollo web'
+const title = 'Desarrollo web'
 
 /**
  * Ref：https://vuepress.vuejs.org/config/#description
  */
-const description = title
+const description = 'Guía básica de desarrollo de sitios web'
 
 /**
  * Extra tags to be injected to the page HTML `<head>`
@@ -43,8 +43,10 @@ const dest = 'docs'
  * Ref: https://vuepress.vuejs.org/theme/default-theme-config.html#navbar-links
  */
 const nav = [
-  { text: 'Guide', link: '/guide/' },
-  { text: 'Config', link: '/config/' }
+  { text: 'Guía', link: '/guide/' },
+  { text: 'HTML', link: '/html/' },
+  { text: 'CSS', link: '/css/' },
+  { text: 'JavaScript', link: '/javascript/' }
 ]
 
 /**
@@ -52,11 +54,33 @@ const nav = [
  */
 const sidebar = {
   '/guide/': [{
-    title: 'Guide',
+    title: 'Guía',
     collapsable: false,
     children: [
       '',
-      'using-vue',
+    ]
+  }],
+  '/html/': [{
+    title: 'HTML',
+    collapsable: false,
+    sidebarDepth: 2,
+    children: [
+      '',
+      'structure'
+    ]
+  }],
+  '/css/': [{
+    title: 'CSS',
+    collapsable: false,
+    children: [
+      '',
+    ]
+  }],
+  '/javascript/': [{
+    title: 'JavaScript',
+    collapsable: false,
+    children: [
+      '',
     ]
   }],
 }

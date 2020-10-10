@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: ./hero.jpg
 tagline: Guia basica para el desarrollo web
-actionText: Quick Start →
+actionText: Empezar →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by Alejandro Castaño González with ❤️
+- title: HTML
+  details: Estructura de las páginas web
+- title: CSS
+  details: Estilo de las páginas web
+- title: JavaScript
+  details: Dinamismo de las páginas web
+footer: Hecho por Alejandro Castaño González con ❤️
 ---
